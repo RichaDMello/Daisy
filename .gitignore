@@ -1,0 +1,101 @@
+# -------------------------
+# Python: bytecode & cache
+# -------------------------
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+
+# -------------------------
+# Virtual environments
+# -------------------------
+.venv/
+venv/
+env/
+ENV/
+
+# -------------------------
+# Packaging / build artifacts
+# -------------------------
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# -------------------------
+# Testing & coverage
+# -------------------------
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# -------------------------
+# Jupyter
+# -------------------------
+*.ipynb_checkpoints/
+.jupyter/
+
+# -------------------------
+# IDE / Editor settings
+# -------------------------
+.vscode/
+.vscode/*
+!.vscode/extensions.json      # keep team recommendations if you use them
+.idea/
+*.swp
+*.swo
+
+# -------------------------
+# OS / Misc
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Logs & temp
+# -------------------------
+*.log
+logs/
+tmp/
+temp/
+
+# -------------------------
+# Environment variables / secrets
+# -------------------------
+.env
+.env.*
+!.env.example                 # keep a template of required env vars
+
+# -------------------------
+# Data (optional – uncomment if you keep large local data out of git)
+# -------------------------
+# data/
+# data/**/*
+# !data/README.md             # keep a placeholder/readme about where data comes from
+
+# -------------------------
+# Models / artifacts (optional)
+# -------------------------
+# models/
+# outputs/
+# checkpoints/
+
+# -------------------------
+# Notebooks’ local outputs (optional)
+# -------------------------
+# **/figures/
+# **/reports/
+
+# -------------------------
+# Tool-specific (uncomment if you use them)
+# -------------------------
+# .mypy_cache/
+# .ruff_cache/
+# .pyre/
+# poetry.lock                 # usually commit this for reproducibility
+# .conda/
+# .tox/
+
