@@ -1,0 +1,9 @@
+opencv-python
+numpy
+pygame
+imutils
+matplotlib
+pyribbit
+urchin
+bosdyn-client
+
