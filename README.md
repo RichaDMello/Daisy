@@ -100,3 +100,4 @@ The observer provides live feedback on Daisy’s system and surroundings, includ
 - Click **Record** to save all metrics to a timestamped log file in the `Continuous Logs/` directory.
 - You can replay any session by loading its corresponding log file.
 
+![gui_observer screenshot](Observer_GUI.png)
