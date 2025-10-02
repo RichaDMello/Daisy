@@ -67,6 +67,8 @@ The controller is designed to replace the Boston Dynamics tablet interface and p
 > You must have a Boston Dynamics user account to control the robot.  
 > You can still explore the GUI without one.
 
+![gui_controller screenshot](gui_controller)
+
 ---
 
 ## Observer
