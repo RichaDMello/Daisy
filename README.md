@@ -37,6 +37,39 @@ This project contains two primary tools:
 
 ---
 
+## Observer
+
+The observer provides live feedback on Daisy’s system and surroundings, including:
+
+- Graphs of all joint angles
+- Live video feeds from front and periphery cameras
+- Battery status, system temperatures, Wi-Fi mode
+- Real-time pose visualization with a 3D model
+- Faults displayed in red when present
+- Ability to record and replay sessions
+
+### How to Run the Observer
+
+1. **Install the required packages**:
+   ```bash
+   pip install -r requirements.txt
+2. **Launch the observer**:
+   ```bash
+   python3 gui_observer.py 192.168.80.3
+3. **Using the Observer GUI**:
+
+- A window will open with Daisy’s front camera in a large panel.
+- Click any smaller preview window to swap it into the main view.
+- Joint angle plots update in real time for all legs.
+- Battery level, sensor temperatures, Wi-Fi mode, and faults are displayed.
+- Daisy’s 3D model updates live with her posture and orientation.
+- Click **Record** to save all metrics to a timestamped log file in the `Continuous Logs/` directory.
+- You can replay any session by loading its corresponding log file.
+
+![gui_observer screenshot](Observer_GUI.png)
+
+---
+
 ## Controller
 
 The controller is designed to replace the Boston Dynamics tablet interface and provides:
@@ -68,36 +101,3 @@ The controller is designed to replace the Boston Dynamics tablet interface and p
 > You can still explore the GUI without one.
 
 ![gui_controller screenshot](gui_controller.png)
-
----
-
-## Observer
-
-The observer provides live feedback on Daisy’s system and surroundings, including:
-
-- Graphs of all joint angles
-- Live video feeds from front and periphery cameras
-- Battery status, system temperatures, Wi-Fi mode
-- Real-time pose visualization with a 3D model
-- Faults displayed in red when present
-- Ability to record and replay sessions
-
-### How to Run the Observer
-
-1. **Install the required packages**:
-   ```bash
-   pip install -r requirements.txt
-2. **Launch the observer**:
-   ```bash
-   python3 gui_observer.py 192.168.80.3
-3. **Using the Observer GUI**:
-
-- A window will open with Daisy’s front camera in a large panel.
-- Click any smaller preview window to swap it into the main view.
-- Joint angle plots update in real time for all legs.
-- Battery level, sensor temperatures, Wi-Fi mode, and faults are displayed.
-- Daisy’s 3D model updates live with her posture and orientation.
-- Click **Record** to save all metrics to a timestamped log file in the `Continuous Logs/` directory.
-- You can replay any session by loading its corresponding log file.
-
-![gui_observer screenshot](Observer_GUI.png)
