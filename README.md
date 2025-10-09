@@ -39,6 +39,8 @@ This project contains two primary tools:
 
 ## Observer
 
+![gui_observer screenshot](Observer_GUI.png)
+
 The observer provides live feedback on Daisy’s system and surroundings, including:
 
 - Graphs of all joint angles
@@ -68,11 +70,11 @@ The observer provides live feedback on Daisy’s system and surroundings, includ
 - Click **Record** to save all metrics to a timestamped log file in the `Continuous Logs/` directory.
 - You can replay any session by loading its corresponding log file.
 
-![gui_observer screenshot](Observer_GUI.png)
-
 ---
 
 ## Controller
+
+![gui_controller screenshot](gui_controller.png)
 
 The controller is designed to replace the Boston Dynamics tablet interface and provides:
 
@@ -101,5 +103,3 @@ The controller is designed to replace the Boston Dynamics tablet interface and p
 
 > You must have a Boston Dynamics user account to control the robot.  
 > You can still explore the GUI without one.
-
-![gui_controller screenshot](gui_controller.png)
